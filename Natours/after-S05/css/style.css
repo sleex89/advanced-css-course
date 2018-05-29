@@ -86,12 +86,12 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .heading-tertiary {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase; }
 
 .paragraph {
-  font-size: 1.6rem; }
+  font-size: $default-font-size; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
@@ -135,7 +135,7 @@ body {
   border-radius: 10rem;
   transition: all .2s;
   position: relative;
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   border: none;
   cursor: pointer; }
 
@@ -180,7 +180,7 @@ body {
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   color: #55c57a;
   display: inline-block;
   text-decoration: none;
@@ -382,7 +382,7 @@ body {
   display: none; }
 
 .form__radio-label {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   cursor: pointer;
   position: relative;
   padding-left: 4.5rem; }
@@ -489,7 +489,7 @@ body {
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   transform: skewX(-12deg); }
   .story__shape {
     width: 15rem;
